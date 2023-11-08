@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "controle-de-receitas-360613",
+  "private_key_id": "2a184c3658f208f085e5f01e2e9a1ef7c5b67a07",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDMnj1AKWuvAWMy\nZEXOSJRHCjB6LjbENKm2N9TKSIx9mh3RG3d2GL7RbyLOsaG4lP4WM5YXIvLgn60V\nie/tF7R/dWQq4pdktfLq5qVnBtowpCmh2yQP8XJXvNHhiiUYvGM08lkLeWKKHMhV\nSob2EvgyiO4z6pjkH1qVpux0cQ0GYD89MGFRa2X5NqjvFebw2sGeOSOjOwxo3cO5\nEZBhsfXZ3qI/egWXU6mf1Xduy4G0f6aR/yLhyDzZl9EHkUFjYyhcuhg421U22ErQ\n/OgngF0GEOPsg1IwvkS/gSd6W86NlbjYsbsm8793JsP9li5dP6csEKDsSXA5aBAU\nxkY+VAcvAgMBAAECggEAD8MSXZwgBKEku3MB9ZWds0M6Eyj2l9kLe1Mdryw1HLYy\n6cxZDXdzUfEvsaBfugPjXS506pKLBxNsL9nD6g2gN9lN8aFdOPYGU/xkbWVK7xUW\nQYOYaZBkPUhfgPI1UIx8HLRpq5Q0K20M+ZT+HhW9mZb2uN6vdfmV7sVAnbYMfM5P\ngjD30EFNGRVbwgCMzYY7ITx7DrTzGaFSpnj9nfX3f7SCIuFsUq9tgdhJQ2MuSi2y\nM+pKmaIEi6DFzgUdkQaMAHdTQvTycyUJbeGPDCcRWAHoH6LuwsdesTyOu/8j/Cng\nY7yGwAcR/Zyhrj1kRW/1LuRaiUQPMgegjoIhG3FjcQKBgQDw2dwKZy3U4qCZJlic\nwF4lH0rRrQhxON5TZRbULiU538jgG9d3JMQwNBOmMVsD8XOSi/sHEwvJsE1Kv6wD\nWVUJFf08/l9AL2HD49asvOpxHoT+lfyYX3skbjwxt7pqrDWraKXZS8lpZDG9/0wa\nlORHPN1IZcQbK1Y/hBT4yVLBjQKBgQDZfPbPs/c8TadHx3dZ/JGsUuUD7l4qPS5X\nNPvjBD/D0rGbEDSO2QFrCT/3TwXqwhg1c0yyrmSXoQUAKmrPlm698c2508cpaNm+\n8Z9cDA7Wbi/SWvnGXgtffZYtXsfEjAdS8vi1tgj9LUD18gECikHOYFiTNIEMnhUX\nWSlmu102qwKBgE6dzkVXCI7EqsdSzPndkN1tKW7nnCnY9jkidiEsLtqFQXxlmh85\n0RAq737//UV8Os1LA9V7Ug2zjocnqW4uaqNcmhyeq1i4HqFibWBVCfGClMbFDn5u\nLDPoB53y6taG/73Dmt8i7cuI+PObsau7jgfyxggrr6durehtpKrQjELBAoGAAtFE\nnUI2lLhoz1w9JpRICtR0FQ30eFWckRKlpLY8YTwMgva9x4/2Hb3b70c9y2HCUIby\n2mm58eDrIKpsAc5wFtPYF20v6lBqabfVmaqqUorQ4ce97pzvRshotqPAsMIjoiZ1\npFz8VtNMQSNmcfL6kULcQuPuPAycN1Y3XBZXScsCgYA0c84nwlB2e9BbAMCeCRBu\nVeMU7uw7LanSrGBvZVVIe295dGq50RWPk0vTtoSyKV05TNcwvDJN0JjjQryiNwEG\np6wKKns9UmPmyjT0qDY6s6v1T5tK1dir8x50lsax20NuhEhLHLifE7a0feiegDZv\n+ZWqSCqFtMsFPaPVFXBjiw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "papieri@controle-de-receitas-360613.iam.gserviceaccount.com",
+  "client_id": "106485838047441557193",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/papieri%40controle-de-receitas-360613.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
