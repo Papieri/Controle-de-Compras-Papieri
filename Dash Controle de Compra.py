@@ -1,5 +1,6 @@
 import streamlit as st
 import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 import os
 import json
@@ -22,6 +23,9 @@ if creds_json:
 else:
     raise ValueError("Credenciais do Google não encontradas.")
 
+# Faça autenticação com as credenciais
+creds = ServiceAccountCredentials.from_json_keyfile_name('controle-de-receitas-360613-2a184c3658f2.json', scope)
+client = gspread.authorize(creds)
 
 # Abra a planilha e selecione a aba específica
 spreadsheet_name = "Banco de Dados - Papieri"  # Substitua pelo nome da sua planilha
