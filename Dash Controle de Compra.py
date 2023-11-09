@@ -1,7 +1,9 @@
 import streamlit as st
 import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
+import os
+import json
+from google.oauth2.service_account import Credentials
 
 # Defina o escopo de acesso
 scope = [
@@ -11,9 +13,15 @@ scope = [
     "https://www.googleapis.com/auth/drive"
 ]
 
-# Faça autenticação com as credenciais
-creds = ServiceAccountCredentials.from_json_keyfile_name('controle-de-receitas-360613-2a184c3658f2.json', scope)
-client = gspread.authorize(creds)
+# O nome da variável de ambiente onde o JSON completo das credenciais está armazenado
+creds_json = os.getenv("GOOGLE_CREDENTIALS")
+if creds_json:
+    creds_info = json.loads(creds_json)
+    creds = Credentials.from_service_account_info(creds_info, scopes=scope)
+    client = gspread.authorize(creds)
+else:
+    raise ValueError("Credenciais do Google não encontradas.")
+
 
 # Abra a planilha e selecione a aba específica
 spreadsheet_name = "Banco de Dados - Papieri"  # Substitua pelo nome da sua planilha
@@ -36,9 +44,9 @@ df.columns = cols
 # Função para aplicar estilo às células
 def highlight_buy_sell(value):
     if value == "Comprar":
-        return 'background-color: #66ba65'  # Um verde mais claro
+        return 'background-color: #88db7d'  # Um verde mais claro
     elif value == "Não comprar":
-        return 'background-color: #f590a0'  # Um vermelho mais claro
+        return 'background-color: #f294a3'  # Um vermelho mais claro
     else:
         return ''
     
